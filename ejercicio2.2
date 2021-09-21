@@ -1,0 +1,13 @@
+SELECT * FROM post FULL OUTER JOIN comentarios ON post.id=comentarios.id;
+
+ id | usuario | fecha | contenido | descripcion | titulo | id | fecha | hora |         contenido          
+----+---------+-------+-----------+-------------+--------+----+-------+------+----------------------------
+  1 | pamela  |       |           |             | hola   |  1 |       |      | comentario del primer post
+  1 | pamela  |       |           |             | hola   |  1 |       |      | comentario dos
+  6 | carlos  |       |           |             |        |  6 |       |      | comentario uno
+  6 | carlos  |       |           |             |        |  6 |       |      | comentario dos
+  6 | carlos  |       |           |             |        |  6 |       |      | comentario tres
+  6 | carlos  |       |           |             |        |  6 |       |      | comentario cuatro
+  2 | pamela  |       |           |             | adios  |    |       |      | 
+  5 | pedro   |       |           |             |        |    |       |      | 
+:

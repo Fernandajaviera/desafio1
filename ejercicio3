@@ -1,0 +1,6 @@
+post=# Select * from post;
+ id | usuario | fecha | contenido | descripcion 
+----+---------+-------+-----------+-------------
+  1 | pamela  |       |           | 
+  2 | pamela  |       |           | 
+  3 | carlos  |       |           | 

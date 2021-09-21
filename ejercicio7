@@ -1,0 +1,8 @@
+post=# Select * from post order by id asc;
+ id | usuario | fecha | contenido | descripcion | titulo 
+----+---------+-------+-----------+-------------+--------
+  1 | pamela  |       |           |             | hola
+  2 | pamela  |       |           |             | adios
+  4 | pedro   |       |           |             | 
+  5 | pedro   |       |           |             | 
+(4 rows)
